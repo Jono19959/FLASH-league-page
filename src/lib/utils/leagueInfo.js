@@ -7,8 +7,10 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Founded in 2020, FLASH (Fantasy League of Aspiring Sports Historians) is a semi-competitive and interactive fantasy league amongst GMs stretching across the country.</p>
-  <p>Jodo, please write something cool for the home page!</p>
+  <p>Founded in 2020, <b>FLASH</b> (Fantasy League of Aspiring Sports Historians) is an online arena where the most passionate football minds from all across America gather each and every fall to put their knowledge to the test in pursuit of the ultimate prize: The FLASH Championship Trophy.</p>
+  <p>But for all the blood, sweat, and tears poured into the epic battles that take place every week on the virtual gridiron, what truly sets FLASH apart is the camaraderie built along the way. Whether it’s participating in our podcasts, writing recaps and power rankings, braving the bright lights of a press conference, livening up the group chat with smack talk, memes, and jokes, or engaging in late night trade discussions– This league would be nothing without the amazing people that comprise it.</p>
+  <p>While over time our love and knowledge of the game may ebb and flow and some of the faces may change, the friendships made along the way will last a lifetime. And that is what will always define what FLASH is all about.</p>
+  <p>Welcome to FLASH: Where Sunday Glory meets Lifetime Stories</p>
 `;
 
 /*   STEP 3   */
