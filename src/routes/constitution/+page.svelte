@@ -11,6 +11,8 @@
     let financials;
     let auctionRules;
     let tradeRules;
+    let waiverWireSystem;
+    let rosterManagement;
     
 
     const goToSection = (section) => {
@@ -154,6 +156,10 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(auctionRules)}>Auction Rules</h3>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(tradeRules)}>Trade Rules</h3>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(waiverWireSystem)}>Waiver Wire System</h3>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(rosterManagement)}>Roster Management</h3>
     
     <hr />
     
@@ -389,6 +395,33 @@
         <li>Trading of your current season FAAB budget is allowed.</li>
         <li>Trading of your future auction budget for current players is not allowed.</li>
         <li>Off-season trades are allowed as long as all players involved are kept by both GMs and the vote is not vetoed by the league.</li>
+    </ol>
+    
+    <h3 class="sectionHeading" bind:this={waiverWireSystem}>Waiver Wire System</h3>
+
+    <ol>
+        <li>The waiver wire system will be FAAB (free agent acquisition budget)</li>
+        <li>All GMs will start the season with a FAAB budget of $100 PLUS any money left over from the auction</li>
+        <li>If available players go through their waiver period without being picked up, they will become free agents</li>
+        <li>The minimum FAAB bid for a player is $0</li>
+        <li>The tie-breaker for multiple people bidding the same amount for a player is reverse current standings</li>
+    </ol>
+    
+    <h3 class="sectionHeading" bind:this={rosterManagement}>Roster Management</h3>
+
+    <ol>
+        <li>
+            Each team must field a full roster each week.  If a team fails to do so by the end of the week, the commissioner has the option to retroactively fill in the team roster with the lowest scoring eligible player.
+            <ol type="a">
+                <li>This does not apply if the GM intentionally leaves a slot empty or does not have a qualifying player to fill a slot (i.e. COVID-19 situations or no D/ST due to byes).</li>
+            </ol>
+        </li>
+        <li>
+            The team GM will be removed at the commissioner’s discretion if a full roster is not fielded 2 or more times in a given season.
+            <ol type="a">
+                <li>The vacant team will be managed by the commissioner until a replacement can be found unless the commissioner’s team plays the vacant team.  Then the current highest seeded team (other than the commissioner) will manage the team for that week.</li>
+            </ol>
+        </li>
     </ol>
     
 </div>
