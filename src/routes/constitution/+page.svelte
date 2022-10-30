@@ -13,6 +13,9 @@
     let tradeRules;
     let waiverWireSystem;
     let rosterManagement;
+    let scoring;
+    let scheduling;
+    let lastPlacePunishment;
     
 
     const goToSection = (section) => {
@@ -160,6 +163,12 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(waiverWireSystem)}>Waiver Wire System</h3>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(rosterManagement)}>Roster Management</h3>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(scoring)}>Scoring</h3>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(scheduling)}>Regular Season/Playoff Scheduling</h3>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(lastPlacePunishment)}>Last Place Punishment</h3>
     
     <hr />
     
@@ -423,5 +432,41 @@
             </ol>
         </li>
     </ol>
+    
+    <h3 class="sectionHeading" bind:this={scoring}>Scoring</h3>
+
+    <ol>
+        <li>Sleeper default options have been selected for our scoring system.</li>
+    </ol>
+    
+     <h3 class="sectionHeading" bind:this={scheduling}>Regular Season/Playoff Scheduling</h3>
+
+    <ol>
+        <li>The regular season will last 14 weeks</li>
+        <li>
+            The top six teams in the league will advance to the championship bracket
+            <ol type="a">
+                <li>The championship bracket will last 3 weeks, with the Championship occurring on week 17 of the NFL regular season</li>
+                <li>The top team in each division will secure a bye for the first round, automatically advancing to the semi-finals</li>
+            </ol>
+        </li>
+        <li>
+            The bottom six teams in the league will play in the postseason Toilet Bowl
+            <ol type="a">
+                <li>The Toilet Bowl will last 3 weeks, with the finals occurring on week 17 of the NFL regular season</li>
+                <li>The 2 worst teams will secure a bye for the first round, automatically advancing to the semi-finals</li>
+                <li>The team that scores the least amount of points in each matchup is the team that advances to the next round</li>
+            </ol>
+        </li>
+    </ol>
+    
+    <h3 class="sectionHeading" bind:this={lastPlacePunishment}>Last Place Punishment</h3>
+
+    <ol>
+        <li>All GMs can collectively add ideas of potential punishments to a list prior to the start of the NFL regular season.</li>
+        <li>The loser (GM with the least points scored in the final round) of the aforementioned Toilet Bowl will have to partake in a punishment of their choice from the list created by the league. They will have to send proof of completion of punishment to the league prior to the start of the following NFL preseason.</li>
+        <li>Failure to complete punishment will result in a fine of $50 that will go towards food and drinks for the live draft next season.</li>
+    </ol>
+    
     
 </div>
