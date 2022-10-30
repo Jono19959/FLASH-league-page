@@ -7,6 +7,7 @@
     let five, fiveOne;
     let six, sixOne, sixTwo, sixThree;
     let seven, sevenOne, sevenTwo, sevenThree;
+    let eight;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -96,7 +97,7 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">FLASH Manifesto</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
@@ -141,6 +142,8 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Payout</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Section 8: Participants</h3>
     
     
     <hr />
@@ -300,4 +303,21 @@
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
 
+    <h3 class="sectionHeading" bind:this={eight}>Section 8: Participants</h3>
+
+    <ol>
+        <li>Chris Keane</li>
+        <li>Dominic Martinez</li>
+        <li>Ethan Fortin</li>
+        <li>Jacob Mayer</li>
+        <li>Jeremy Vilchez</li>
+        <li>Joe Donovan</li>
+        <li>Jonathan Collins</li>
+        <li>Luke Natalo</li>
+        <li>Matt Kolln</li>
+        <li>Peter Psyllos</li>
+        <li>Ryan Cullen</li>
+        <li>Ryan Vaughn</li>
+    </ol>
+    
 </div>
