@@ -10,6 +10,7 @@
     let participants;
     let financials;
     let auctionRules;
+    let tradeRules;
     
 
     const goToSection = (section) => {
@@ -151,6 +152,8 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(financials)}>Financials</h3>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(auctionRules)}>Auction Rules</h3>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(tradeRules)}>Trade Rules</h3>
     
     <hr />
     
@@ -365,6 +368,27 @@
             ^IR slot can only be filled by players declared OUT (not SUSP)
         </li>
         <li>A team must draft a player to fill all 9 starting slots (i.e. a GM may not forgo drafting a TE or D/ST with intentions of picking one up off the waivers post draft)</li>
+    </ol>
+    
+    <h3 class="sectionHeading" bind:this={tradeRules}>Trade Rules</h3>
+
+    <ol>
+        <li>All GMs have the option to veto any accepted trade.  Trades will be processed 24 hours after the acceptance of a trade.</li>
+        <li>By not voting, you are agreeing the trade is fair.</li>
+        <li>In order to overturn a trade there must be 7 votes to veto (super majority of the 10 GMs not involved in the trade).</li>
+        <li>The trade deadline is week 10.</li>
+        <li>
+            If you want a trade to forgo the normal veto process for any reason, the following steps must be taken
+            <ol type="a">
+                <li>(Optional) Post the trade in the groupme (specifying all details of the trade)<br><del>You must post the trade in the groupme, specifying the GMs involved in the trade and the players being traded.</del></li>
+                <li>Four other GMs not involved in the trade must approve the trade either by liking the groupme post or by voting "PASS" in Sleeper.<br><del>Four other GMs not involved in the trade must approve the trade by liking the post.</del></li>
+                <li>Once you have approval from the league, DM Jodo and/or Jono (most likely Jodo) at least 2 hours before the start of the next round of NFL games (by 6:20pm EST Thursday or 11:00am EST Sunday) so that they can push the trade through.</li>
+                <li>Either commissioner will send both GMs involved in the trade a confirmation when they push the trade through. So be ready to set your lineups.</li>
+            </ol>
+        </li>
+        <li>Trading of your current season FAAB budget is allowed.</li>
+        <li>Trading of your future auction budget for current players is not allowed.</li>
+        <li>Off-season trades are allowed as long as all players involved are kept by both GMs and the vote is not vetoed by the league.</li>
     </ol>
     
 </div>
