@@ -490,6 +490,7 @@
             </li>
             <li>Outside of managing their team, this is the only responsibility each GM potentially has on a week-to-week basis, but this is an expectation for being in this league. If you have any issues recording or posting your press conference, please reach out to Jodo or Jono</li>
         </ol>
+    </div>
 
     <h4 bind:this={yearlyPressConferences}>End-of-Year Press Conferences</h4>
     <div class="subBlock">
@@ -506,7 +507,7 @@
             <li>There is a potential to have to answer 22 questions, so plan enough time before you start </li>
             <li>Failure to submit your press conference will result in a penalty of some sort (TBD)</li>
         </ol>
-    
+   </div>
 
     
 </div>
