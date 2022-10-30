@@ -307,7 +307,7 @@
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
 
-    <h2 class="sectionHeading" bind:this={participants}>Participants</h2>
+    <h3 class="sectionHeading" bind:this={participants}>Participants</h3>
 
     <ol>
         <li>Chris Keane</li>
@@ -324,14 +324,14 @@
         <li>Ryan Vaughn</li>
     </ol>
 
-    <h2 class="sectionHeading" bind:this={financials}>Financials</h2>
+    <h3 class="sectionHeading" bind:this={financials}>Financials</h3>
 
     <b>Total Payment: $50</b><br>
     <ul>
         <li>Entry Fee: <b>$50</b></li>
     </ul>
     
-    All payments must be paid directly to the commissioner by the time the auction draft starts.<br>
+    All payments must be paid directly to the commissioner by the time the auction draft starts.<br><br>
     <b>Total (starting) Prize Pool = $600</b><br>
     <b>End-of-Season Payouts:</b><br>
     <ul>
