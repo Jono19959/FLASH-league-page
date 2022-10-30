@@ -327,20 +327,17 @@
     <h2 class="sectionHeading" bind:this={financials}>Financials</h2>
 
     <p><b>Total Payment: $50</b></p>
-    
     <ul>
         <li>Entry Fee: <b>$50</b></li>
     </ul>
     
     <p>All payments must be paid directly to the commissioner by the time the auction draft starts.</p>
-    <p>
-        <b>Total (starting) Prize Pool = $600</b><br>
-        <b>End-of-Season Payouts:</b>
-        <ul>
-            <li>First place: <b>$360</b> (60%)</li>
-            <li>Second place: <b>$180</b> (30%)</li>
-            <li>Regular season highest scorer: (based on points scored with record as the tiebreakers): <b>$60</b> (10%)</li>
-        </ul>
-    </p>
+    <b>Total (starting) Prize Pool = $600</b><br>
+    <b>End-of-Season Payouts:</b><br>
+    <ul>
+        <li>First place: <b>$360</b> (60%)</li>
+        <li>Second place: <b>$180</b> (30%)</li>
+        <li>Regular season highest scorer: (based on points scored with record as the tiebreakers): <b>$60</b> (10%)</li>
+    </ul>
     
 </div>
