@@ -380,8 +380,8 @@
         <li>
             If you want a trade to forgo the normal veto process for any reason, the following steps must be taken
             <ol type="a">
-                <li>(Optional) Post the trade in the groupme (specifying all details of the trade)<br><del>You must post the trade in the groupme, specifying the GMs involved in the trade and the players being traded.</del></li>
-                <li>Four other GMs not involved in the trade must approve the trade either by liking the groupme post or by voting "PASS" in Sleeper.<br><del>Four other GMs not involved in the trade must approve the trade by liking the post.</del></li>
+                <li><mark>(Optional) Post the trade in the groupme (specifying all details of the trade)</mark><br><del>You must post the trade in the groupme, specifying the GMs involved in the trade and the players being traded.</del></li>
+                <li><mark>Four other GMs not involved in the trade must approve the trade either by liking the groupme post or by voting "PASS" in Sleeper.</mark><br><del>Four other GMs not involved in the trade must approve the trade by liking the post.</del></li>
                 <li>Once you have approval from the league, DM Jodo and/or Jono (most likely Jodo) at least 2 hours before the start of the next round of NFL games (by 6:20pm EST Thursday or 11:00am EST Sunday) so that they can push the trade through.</li>
                 <li>Either commissioner will send both GMs involved in the trade a confirmation when they push the trade through. So be ready to set your lineups.</li>
             </ol>
