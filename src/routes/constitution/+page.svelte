@@ -17,6 +17,9 @@
     let scheduling;
     let lastPlacePunishment;
     let pressConferences, weeklyPressConferences, yearlyPressConferences;
+    let ruleChanges;
+    let codeOfConduct;
+    let lastNote;
     
 
     const goToSection = (section) => {
@@ -175,6 +178,13 @@
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(weeklyPressConferences)}>Weekly Press Conferences</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(yearlyPressConferences)}>End-of-Year Press Conferences</h4>
+ 
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(ruleChanges)}>Rule Additions and Modifications</h3>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(codeOfConduct)}>Code of Conduct</h3>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(lastNote)}>Note From the Commissioner</h3>   
+  
     
     <hr />
     
@@ -445,7 +455,7 @@
         <li>Sleeper default options have been selected for our scoring system.</li>
     </ol>
     
-     <h3 class="sectionHeading" bind:this={scheduling}>Regular Season/Playoff Scheduling</h3>
+    <h3 class="sectionHeading" bind:this={scheduling}>Regular Season/Playoff Scheduling</h3>
 
     <ol>
         <li>The regular season will last 14 weeks</li>
@@ -507,7 +517,32 @@
             <li>There is a potential to have to answer 22 questions, so plan enough time before you start </li>
             <li>Failure to submit your press conference will result in a penalty of some sort (TBD)</li>
         </ol>
-   </div>
+    </div>
 
+    <h3 class="sectionHeading" bind:this={ruleChanges}>Rule Additions and Modifications</h3>
+
+    <ol>
+        <li>Any suggested modifications to any of the rules outlined above will be voted on by the entire league and must get a majority vote to make the modification to this document</li>
+        <li>Any rules not stated above will be decided by the league through our GroupMe chat and will be added to this document as soon as possible</li>
+        <li>
+            The commissioner will only override potential rule additionals and modifications if it creates a lot more work for the commissioner.
+            <ol type="a">
+                <li>However, if a GM is willing to do the work for the rule change to go in effect, the commissioner will lose his or her ability to override any rule change</li>
+            </ol>
+        </li>
+    </ol> 
+    
+    <h3 class="sectionHeading" bind:this={codeOfConduct}>Code of Conduct</h3>
+
+    <p>Because we are a group of friends who just want to have fun playing fantasy football, there is not a “zero-tolerance” policy for any actions that are considered “harmful” to the group or an individual of this league. Everyone has come from a different backgrounds, so try to be respectful of everyone else’s beliefs. If you have any questions or concerns about how someone is acting, please reach out to the commissioner or talk to the individual about it before it has the potential to escalate into something bigger.</p>
+    <p>If any issues get to a point where we can’t settle the issue civilly, the following steps will be taken:</p>
+    <ol>    
+        <li>A warning will be given to the instigator of the issue, and that behavior should stop immediately</li>
+        <li>If that behavior continues, the commissioner will have the option of removing that individual from the league. A refund for the league will be determined on a case-by-case basis.</li>
+    </ol>
+  
+    <h3 class="sectionHeading" bind:this={lastNote}>Note from the Commissioner</h3>
+
+    <p>I will never ever ever take anything in this league as seriously as this article makes it seem. I just wanted a clearly defined set of rules written out now so that the rest of this season can be focused on interactive fantasy football fun. But if you’re deciding you don’t wanna play this year, feel free to use one of the rules above as a reason for leaving the league - don’t worry, I’ll completely understand.</p>
     
 </div>
