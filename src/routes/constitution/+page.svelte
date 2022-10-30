@@ -7,7 +7,8 @@
     let five, fiveOne;
     let six, sixOne, sixTwo, sixThree;
     let seven, sevenOne, sevenTwo, sevenThree;
-    let eight;
+    let participants, financials;
+    
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -303,7 +304,7 @@
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
 
-    <h3 class="sectionHeading" bind:this={eight}>Section 8: Participants</h3>
+    <h2 class="sectionHeading" bind:this={participants}>Participants</h2>
 
     <ol>
         <li>Chris Keane</li>
@@ -319,5 +320,25 @@
         <li>Ryan Cullen</li>
         <li>Ryan Vaughn</li>
     </ol>
+    
+    <h2 class="sectionHeading" bind:this={participants}>Participants</h2>
+
+    <p><b>Total Payment: $50</b></p>
+    
+    <ul>
+        <li>Entry Fee: <b>$50</b></li>
+    </ul>
+    
+    <p>All payments must be paid directly to the commissioner by the time the auction draft starts.</p>
+    <p>
+        <b>Total (starting) Prize Pool = $600</b><br>
+        <b>End-of-Season Payouts:</b><br>
+        <ul>
+            <li>First place: <b>$360</b> (60%)</li>
+            <li>Second place: <b>$180</b> (30%)</li>
+            <li>Regular season highest scorer: (based on points scored with record as the tiebreakers): <b>$60</b> (10%)</li>
+        </ul>
+    </p>
+   
     
 </div>
