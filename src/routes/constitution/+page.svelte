@@ -7,7 +7,8 @@
     let five, fiveOne;
     let six, sixOne, sixTwo, sixThree;
     let seven, sevenOne, sevenTwo, sevenThree;
-    let participants, financials;
+    let participants;
+    let financials;
     
 
     const goToSection = (section) => {
@@ -321,7 +322,7 @@
         <li>Ryan Vaughn</li>
     </ol>
     
-    <h2 class="sectionHeading" bind:this={participants}>Participants</h2>
+    <h2 class="sectionHeading" bind:this={financials}>Financials</h2>
 
     <p><b>Total Payment: $50</b></p>
     
