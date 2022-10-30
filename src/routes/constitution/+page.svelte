@@ -477,35 +477,35 @@
     <h3 class="sectionHeading" bind:this={pressConferences}>Press Conferences</h3>
     
     <h4 bind:this={weeklyPressConferences}>Weekly Press Conferences</h4>
-
-   <ol>
-        <li>Every week in the regular season, the lowest scorer from that week must share a “press conference” answering any submitted questions from the rest of the league</li>
-        <li>
-            Weekly press conference schedule is as follows
-            <ol type="a">
-                <li>Starting Tuesday morning, all non-losing GMs have until Wednesday noon EST to submit one question to Jodo to be delivered to the losing GM</li>
-                <li>Jodo will deliver those questions to the losing GM by midnight EST on Wednesday night</li>
-                <li>The losing GM has until Saturday @ 5:00pm EST to record themselves answering the questions andpost the “press conference” to either the groupMe channel or another publicly accessible location</li>
-            </ol>
-        </li>
-        <li>Outside of managing their team, this is the only responsibility each GM potentially has on a week-to-week basis, but this is an expectation for being in this league. If you have any issues recording or posting your press conference, please reach out to Jodo or Jono</li>
-    </ol>
+    <div class="subBlock">
+        <ol>
+            <li>Every week in the regular season, the lowest scorer from that week must share a “press conference” answering any submitted questions from the rest of the league</li>
+            <li>
+                Weekly press conference schedule is as follows
+                <ol type="a">
+                    <li>Starting Tuesday morning, all non-losing GMs have until Wednesday noon EST to submit one question to Jodo to be delivered to the losing GM</li>
+                    <li>Jodo will deliver those questions to the losing GM by midnight EST on Wednesday night</li>
+                    <li>The losing GM has until Saturday @ 5:00pm EST to record themselves answering the questions andpost the “press conference” to either the groupMe channel or another publicly accessible location</li>
+                </ol>
+            </li>
+            <li>Outside of managing their team, this is the only responsibility each GM potentially has on a week-to-week basis, but this is an expectation for being in this league. If you have any issues recording or posting your press conference, please reach out to Jodo or Jono</li>
+        </ol>
 
     <h4 bind:this={yearlyPressConferences}>End-of-Year Press Conferences</h4>
-
-   <ol>
-        <li>At the conclusion of the regular season, each team who did not make the championship bracket will have to give an extended press conference, similar to the weekly press conference</li>
-        <li>
-            These press conferences will start in week 14 of the NFL regular season and will last X amount of weeks, with 2 GMs going each week
-            <ol type="a">
-                <li>The schedule for the press conferences will be released shortly after the conclusion of the FLASH regular season (first teams eliminated from playoff contention will most likely go first)</li>
-            </ol>
-        </li>
-        <li>All other GMs are allowed to submit 2 questions to Jodo or Jono for an eliminated GM by midnight EST on Wednesday night of the week the GM is to give their press conference</li>
-        <li>The eliminated GM must post their press conference by Sunday @ 1:00pm EST</li>
-        <li>There is a potential to have to answer 22 questions, so plan enough time before you start </li>
-        <li>Failure to submit your press conference will result in a penalty of some sort (TBD)</li>
-    </ol>
+    <div class="subBlock">
+        <ol>
+            <li>At the conclusion of the regular season, each team who did not make the championship bracket will have to give an extended press conference, similar to the weekly press conference</li>
+            <li>
+                These press conferences will start in week 14 of the NFL regular season and will last X amount of weeks, with 2 GMs going each week
+                <ol type="a">
+                    <li>The schedule for the press conferences will be released shortly after the conclusion of the FLASH regular season (first teams eliminated from playoff contention will most likely go first)</li>
+                </ol>
+            </li>
+            <li>All other GMs are allowed to submit 2 questions to Jodo or Jono for an eliminated GM by midnight EST on Wednesday night of the week the GM is to give their press conference</li>
+            <li>The eliminated GM must post their press conference by Sunday @ 1:00pm EST</li>
+            <li>There is a potential to have to answer 22 questions, so plan enough time before you start </li>
+            <li>Failure to submit your press conference will result in a penalty of some sort (TBD)</li>
+        </ol>
     
 
     
