@@ -348,7 +348,22 @@
         <li>Teams will be drafted via a live auction. If a GM is not able to attend the live auction they may designate a stand-in to draft for them.</li>
         <li>Teams have a budget of $200</li>
         <li>The nomination order will the reverse standings of the previous year</li>
-        <li>Teams consist of 18 players:</li>
+        <li>
+            Teams consist of 18 players:
+            <ul>
+                <li>QB</li>
+                <li>2 RB's</li>
+                <li>2 WR's</li>
+                <li>TE</li>
+                <li>2 Flex's*</li>
+                <li>D/ST</li>
+                <li>6 bench slots</li>
+                <li>2 IR's^</li>
+                <li>2 WR's</li>
+            </ul>
+            *Flex can be filled by RB, WR, or TE<br>
+            ^IR slot can only be filled by players declared OUT (not SUSP)
+        </li>
         <li>A team must draft a player to fill all 9 starting slots (i.e. a GM may not forgo drafting a TE or D/ST with intentions of picking one up off the waivers post draft)</li>
     </ol>
     
