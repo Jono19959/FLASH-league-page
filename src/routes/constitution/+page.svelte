@@ -337,7 +337,7 @@
     <ul>
         <li>First place: <b>$360</b> (60%)</li>
         <li>Second place: <b>$180</b> (30%)</li>
-        <li>Regular season highest scorer: (based on points scored with record as the tiebreakers): <b>$60</b> (10%)</li>
+        <li>Regular season highest scorer: (based on points scored with record as the tiebreakers): <b>$60</b> (10%). This is a test to see what happens in a listed item when it drags on for everrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.</li>
     </ul>
     
 </div>
