@@ -9,6 +9,7 @@
     let seven, sevenOne, sevenTwo, sevenThree;
     let participants;
     let financials;
+    let auctionRules;
     
 
     const goToSection = (section) => {
@@ -149,6 +150,7 @@
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(financials)}>Financials</h3>
     
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(auctionRules)}>Auction Rules</h3>
     
     <hr />
     
@@ -339,5 +341,15 @@
         <li>Second place: <b>$180</b> (30%)</li>
         <li>Regular season highest scorer: (based on points scored with record as the tiebreakers): <b>$60</b> (10%)</li>
     </ul>
+    
+    <h3 class="sectionHeading" bind:this={auctionRules}>Auction Rules</h3>
+
+    <ol>
+        <li>Teams will be drafted via a live auction. If a GM is not able to attend the live auction they may designate a stand-in to draft for them.</li>
+        <li>Teams have a budget of $200</li>
+        <li>The nomination order will the reverse standings of the previous year</li>
+        <li>Teams consist of 18 players:</li>
+        <li>A team must draft a player to fill all 9 starting slots (i.e. a GM may not forgo drafting a TE or D/ST with intentions of picking one up off the waivers post draft)</li>
+    </ol>
     
 </div>
