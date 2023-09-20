@@ -5,6 +5,13 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
+            name: "FLASH Resources",
+            url: "https://docs.google.com/spreadsheets/d/1idxgrh-DNuy9IxempHpyvVMcxMg_1GSsPfZ7a3jKXVE/edit?usp=sharing",
+            icon: "insights",
+            premium: true,
+            separator: true,
+        },
+        {
             name: "FTN Fantasy",
             url: "https://www.ftnfantasy.com/nfl",
             icon: "insights",
